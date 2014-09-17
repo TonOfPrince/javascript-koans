@@ -64,7 +64,7 @@ describe("About Functions", function() {
       return secondArg;
     }
     
-    expect(returnSecondArg("only give first arg")).toBe(null);
+    expect(returnSecondArg("only give first arg")).toBe();
     
     function returnAllArgs() {
       var argsArray = [];
